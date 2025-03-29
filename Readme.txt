@@ -1,24 +1,27 @@
-### Instructions for running the API on local machine
 
-## Set up the environment
+# Predicting Housing Prices using Structured Dataset
 
-# Create a virtual environment
-python -m venv venv
+'Model.ipynb' contains the code for prediction the housing prices using the dataset.
 
-# Activate the virtual environment
-# On Windows:
-venv\Scripts\activate
-# On macOS/Linux:
-source venv/bin/activate
+# Deploy the model
 
-# run 'pip install -r requirements.txt'
+In 'app.py' Flask has been used to  create an API that accepts user inputs and returns predictions.
 
+## Instructions for running the API are as follows:
 
-## Start the flask server
+- Create a virtual environment
+  - python -m venv venv
 
-# run 'python app.py'
+- Activate the virtual environment
+  - On Windows: venv\Scripts\activate
+  - On macOS/Linux: source venv/bin/activate
 
+- run 'pip install -r requirements.txt'
 
-## Test the API
+- Start the flask server
 
-# run 'python test_api.py'
+  - run 'python app.py'
+
+- Test the API
+
+  - run 'python test_api.py'
