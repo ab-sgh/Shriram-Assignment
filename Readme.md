@@ -1,4 +1,3 @@
-
 # Predicting Housing Prices using Structured Dataset
 
 'Model.ipynb' contains the code for prediction the housing prices using the dataset.
